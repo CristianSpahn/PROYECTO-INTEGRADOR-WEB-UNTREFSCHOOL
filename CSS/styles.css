@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Poppins:ital@1&display=swap');
+
+
+:root{
+    --c1: #EFF5F5;
+    --c2: #00425A;
+    --c3: #181823;
+    --c4: #1F8A70;
+    --c5: #FC7300;
+}
+
+.navbar{
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--c2);
+}
+.navbar a{
+    color: var(--c5);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.imagenes{
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto; 
+}
+
+header{
+    padding: 60px;
+    text-align: center;
+    background-color: var(--c3);
+    background-image: url(../img/library.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--c2);
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: var(--c5);
+    color: var(--c1);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+ margin: 0;
+ padding: 0;  
+ display: flex;
+ flex-direction: column; 
+}
+img{
+    border-radius: 10px;
+}
+
+.nosotros {
+    width: 100%;
+    height: auto;
+    background-color: var(--c5);
+    text-align: center;
+    color: var(--c3);
+    padding: 10%;
+}
+
+.eligenos {
+    width: 100%;
+    height: auto;
+    background-color: var(--c2);
+    text-align: center;
+    color: var(--c5);
+    padding: 10%;
+}
+
+.propuestas {
+    width: 100%;
+    height: auto;
+    background-color: var(--c4);
+    text-align: center;
+    color: var(--c1);
+    padding: 10%;
+}
+h1,h2{
+    font-family: 'Poppins', sans-serif;
+    
+}
+p{
+    font-family: 'Belanosima', sans-serif;
+}
+.noticias {
+    width: 100%;
+    height: auto;
+    background-color: var(--c3);
+    text-align: center;
+    color: var(--c5);
+    padding: 10%;
+}
+
+main{
+    background-color: var(--c4);
+}
+a{
+    text-decoration: none;
+    color: var(--c5);
+}
+.materias{
+    justify-content: center;
+}
+
+@media (min-width: 200px){
+    body{
+        flex-direction: column; 
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    background-color: var(--c4);
+    text-align: center;
+    color: var(--c5);
+    padding: 10%;
+    
+}
+
+.Nuestras_redes {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
